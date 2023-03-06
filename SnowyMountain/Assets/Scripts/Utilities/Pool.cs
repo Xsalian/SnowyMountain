@@ -16,7 +16,7 @@ namespace Utilites
 
         public enum ObjectID
         {
-
+            SLOPE,
         }
     }
 }

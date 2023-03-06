@@ -43,8 +43,9 @@ namespace Utilites
             return objectToDespawn;
         }
 
-        protected virtual void Start()
+        protected override void Awake ()
         {
+            base.Awake();
             Initialize();
         }
 
